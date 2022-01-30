@@ -23,12 +23,12 @@ function checkMessage($arg) :bool {
   $message = null;
 
 if(isset($_POST)) {
-  $name    = htmlspecialchars($_POST["name"]);
-  $sender  = htmlspecialchars($_POST["email"]);
-  $subject = htmlspecialchars($_POST["subject"]);
-  $message = htmlspecialchars(wordwrap($_POST["message"], 70, "\r\n"));
+  $name    = htmlspecialchars($_GET["name"]);
+  $sender  = htmlspecialchars($_GET["email"]);
+  $subject = htmlspecialchars($_GET["subject"]);
+  $message = htmlspecialchars(wordwrap($_GET["message"], 70, "\r\n"));
 
-  if(checkName($name) && checkSender($sender) && checkSubject($subject) && checkMessage($message)) {
+  if($post_id = ! empty($_GET['post_id']) && checkName($name) && checkSender($sender) && checkSubject($subject) && checkMessage($message)) {
     $messageToSend = "NAME: $name\n\nSUBJECT: $subject\n\nMESSAGE: $message";
     $subjectToSend = "Hey CyberMath you've have a new message";
     $to = "contact@cybermath.dev";
