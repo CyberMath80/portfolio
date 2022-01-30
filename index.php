@@ -755,6 +755,7 @@
                 </div>
                 <form action="" method="get" role="form" class="php-email-form mt-4" id="contact-form">
                     <div class="row">
+                        <input type="hidden" id="post_id" value="1">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name Here" required>
                         </div>
@@ -766,20 +767,22 @@
                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject Here" required>
                     </div>
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Your Message Here" required></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message Here" required></textarea>
                     </div>
                     <div class="my-3">
                         <div class="loading">Loading</div>
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <div class="text-center"><button class="btn btn-success" type="button" id="btn-submit">Send Message</button></div>
+                    <div class="text-center">
+                        <input type="button" class="btn btn-success" id="btn-submit" value="Send Message">
+                    </div>
                 </form>
                 <p id="result"></p>
                 <?php include('./forms/contact.php'); ?>
             </div>
             <div class="credits-section container">
-                <p>Designed by CyberMath - 2021 &copy; CYBERMATH.DEV</p>
+                <p>Designed by CyberMath - <span class='year'></span> &copy; CYBERMATH.DEV</p>
             </div>
         </section><!-- End Contact Section -->
         <!-- </SECTION CONTACT> ****************************************** -->
