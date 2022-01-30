@@ -72,7 +72,7 @@
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
                 <div class="social-links">
-                    <a href="#" target="_blank" class="twitter" rel="noopener noreferrer nofollow"><i class="bi bi-twitter"></i></a>
+                    <a href="https://twitter.com/CyberMath80" target="_blank" class="twitter" rel="noopener noreferrer nofollow"><i class="bi bi-twitter"></i></a>
                     <a href="https://github.com/cybermath80" target="_blank" class="gitHub" rel="noopener noreferrer nofollow"><i class="bi bi-github"></i></a>
                     <a href="https://www.linkedin.com/in/cybermath" target="_blank" class="linkedin" rel="noopener noreferrer nofollow"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -733,7 +733,7 @@
                             <i class="bx bx-share-alt"></i>
                             <h3>Social Profiles</h3>
                             <div class="social-links">
-                                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="https://twitter.com/CyberMath80" target="_blank" class="twitter" rel="noopener noreferrer nofollow"><i class="bi bi-twitter"></i></a>
                                 <a href="https://www.linkedin.com/in/cybermath" target="_blank" class="linkedin" rel="noopener noreferrer nofollow"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
@@ -753,7 +753,7 @@
                         </div>
                     </div>
                 </div>
-                <form action="#" method="post" role="form" class="php-email-form mt-4" id="contact-form">
+                <form action="" method="get" role="form" class="php-email-form mt-4" id="contact-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name Here" required>
@@ -773,8 +773,9 @@
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <div class="text-center"><button class="btn btn-success" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-success" type="button" id="btn-submit">Send Message</button></div>
                 </form>
+                <p id="result"></p>
                 <?php include('./forms/contact.php'); ?>
             </div>
             <div class="credits-section container">
