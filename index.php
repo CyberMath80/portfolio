@@ -774,7 +774,7 @@
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
                     <div class="text-center">
-                        <input type="submit" class="btn btn-success" value="Send Message">
+                        <button type="submit" class="btn btn-success">Send Message</button>
                     </div>
                 </form>
                 <p id="result"></p>
