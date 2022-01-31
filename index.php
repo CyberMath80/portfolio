@@ -79,7 +79,7 @@
             </div>
         </header>
         <div class="credits container">
-            <p class="credits">Designed by CyberMath - 2021 &copy; CYBERMATH.DEV</p>
+            <p>Designed by CyberMath - 2020 / <span class='year'></span> &copy; CYBERMATH.DEV</p>
         </div>
         <!-- </HEADER> *************************************************** -->
         <!-- <SECTION ABOUT> ********************************************* -->
@@ -415,7 +415,7 @@
             <!-- put here the content of testimonials.txt file if this will needed in the future... -->
             
             <div class="credits-section container">
-                <p>Designed by CyberMath - 2021 &copy; CYBERMATH.DEV</p>
+                <p>Designed by CyberMath - 2020 / <span class='year'></span> &copy; CYBERMATH.DEV</p>
             </div>
         </section><!-- End About Section -->
         <!-- </SECTION ABOUT> ******************************************** -->
@@ -514,7 +514,7 @@
                 </div>
             </div>
             <div class="credits-section container">
-                <p>Designed by CyberMath - 2021 &copy; CYBERMATH.DEV</p>
+                <p>Designed by CyberMath - 2020 / <span class='year'></span> &copy; CYBERMATH.DEV</p>
             </div>
         </section><!-- End Resume Section -->
         <!-- </SECTION RESUME> ******************************************* -->
@@ -565,7 +565,7 @@
                 </div>
             </div>
             <div class="credits-section container">
-                <p>Designed by CyberMath - 2021 &copy; CYBERMATH.DEV</p>
+                <p>Designed by CyberMath - 2020 / <span class='year'></span> &copy; CYBERMATH.DEV</p>
             </div>
         </section><!-- End Services Section -->
         <!-- </SECTION SERVICES> ***************************************** -->
@@ -708,7 +708,7 @@
                 </div>
             </div>
             <div class="credits-section container">
-                <p>Designed by CyberMath - 2021 &copy; CYBERMATH.DEV</p>
+                <p>Designed by CyberMath - 2020 / <span class='year'></span> &copy; CYBERMATH.DEV</p>
             </div>
         </section><!-- End Portfolio Section -->
         <!-- </SECTION PORTFOLIO> **************************************** -->
@@ -753,20 +753,20 @@
                         </div>
                     </div>
                 </div>
-                <form role="form" class="php-email-form mt-4" id="contact-form">
+                <form class="php-email-form mt-4" id="contact-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name Here" required>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name Here">
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Here" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Here">
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject Here" required>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject Here">
                     </div>
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message Here" required></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message Here"></textarea>
                     </div>
                     <div class="my-3">
                         <div class="loading">Loading</div>
@@ -774,13 +774,13 @@
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
                     <div class="text-center">
-                        <input type="button" id='btn-submit' class="btn btn-success" value="Send Message">
+                        <input type="submit" class="btn btn-success" value="Send Message">
                     </div>
                 </form>
                 <p id="result"></p>
             </div>
             <div class="credits-section container">
-                <p>Designed by CyberMath - 2020/<span class='year'></span> &copy; CYBERMATH.DEV</p>
+                <p>Designed by CyberMath - 2020 / <span class='year'></span> &copy; CYBERMATH.DEV</p>
             </div>
         </section><!-- End Contact Section -->
         <!-- </SECTION CONTACT> ****************************************** -->
